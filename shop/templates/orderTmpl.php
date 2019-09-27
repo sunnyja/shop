@@ -1,5 +1,5 @@
 <div class="order">
-    <form class="orderForm" action="index.php?c=page&act=order" method="post" name="order">
+     <form class="orderForm" action="index.php?c=page&act=order" method="post" name="order">
         <p>Введите Ваши имя и фамилию</p>
         <input required autofocus type="text" name="name"><br>
 
@@ -17,8 +17,8 @@
 
         <p><input required type="radio" name="oplata" value="при получении товара">при получении
             <i class="fa fa-money fa-lg" aria-hidden="true"></i>
-        </p>
+       </p>
 
         <input class="goOrder" type="submit" name="goOrder" value="отправить заказ">
-    </form>
+     </form>
 </div>
