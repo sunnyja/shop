@@ -10,12 +10,13 @@
         <textarea required class="address" autofocus type="text" name="address" cols="50" rows="10"></textarea><br>
 
         <p>Варианты оплаты:</p>
-        <p><input required type="radio" name="oplata" value="безналичная оплата" checked>безналичная оплата
+        <p>
+             <input required type="radio" name="oplata" value="безналичная оплата" checked>безналичная оплата
             <i class="fa fa-cc-mastercard fa-lg" aria-hidden="true"></i>
             <i class="fa fa-cc-visa fa-lg" aria-hidden="true"></i>
         </p>
-
-        <p><input required type="radio" name="oplata" value="при получении товара">при получении
+        <p>
+             <input required type="radio" name="oplata" value="при получении товара">при получении
             <i class="fa fa-money fa-lg" aria-hidden="true"></i>
        </p>
         <input class="goOrder" type="submit" name="goOrder" value="отправить заказ">
