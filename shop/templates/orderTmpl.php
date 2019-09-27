@@ -18,7 +18,6 @@
         <p><input required type="radio" name="oplata" value="при получении товара">при получении
             <i class="fa fa-money fa-lg" aria-hidden="true"></i>
        </p>
-
         <input class="goOrder" type="submit" name="goOrder" value="отправить заказ">
      </form>
 </div>
